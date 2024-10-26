@@ -1,8 +1,8 @@
 import pytest
 import allure
 import requests
-from data import *
-from helpers import *
+from Diploma_2.data import *
+from Diploma_2.helpers import *
 
 
 class TestUpdateUser:

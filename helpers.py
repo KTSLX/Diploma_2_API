@@ -2,7 +2,7 @@ import requests
 import allure
 import random
 import string
-from data import *
+from Diploma_2.data import *
 
 
 @allure.step('Генерация строки с задаваемой длиной, состоящей из {length} букв нижнего регистра')
