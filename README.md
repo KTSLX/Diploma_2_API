@@ -1,31 +1,29 @@
-##  Дипломный проект. Задание 2: API тесты
+##  Final diploma project. Task 2: API tests
 
-### Автотесты для проверки программы заказа бургеров в Stellar Burgers
+### Autotests to check burger order process of Stellar Burgers
 
-###  Использованный стек технологий
+###  Technology stack
 
 * Pytest
 * Requests
 * Allure
 
-###  Реализованные сценарии
+###  Scenarios
 
-Созданы API тесты для эндпоинтов: `.../auth/register`, `.../auth/login`, `.../auth/user`, `.../orders`
-, `.../ingredients`.
+API tests for handles: `.../auth/register`, `.../auth/login`, `.../auth/user`, `.../orders`, `.../ingredients`.
 
-###  Структура проекта
+###  Project structure
 
-- `Diploma_2` - проект, содержащий тесты и вспомогательные файлы.
-- `tests` - пакет, содержащий тесты, разделенные по классам: `test_create_user.py`, `test_login_user.py`
-  , `test_update_user.py`, `test_create_order.py`, `test_get_orders.py`.
+- `Diploma_2` - project, containing tests and helpers.
+- `tests` - directory with tests separated by classes: `test_create_user.py`, `test_login_user.py`, `test_update_user.py`, `test_create_order.py`, `test_get_orders.py`.
 
-###  Запуск автотестов
+###  How to launch tests?
 
-**Установка зависимостей**
+**installing requerements**
 
 > `$ pip install -r requirements.txt`
 
-**Запуск автотестов из корня проекта `Diploma_2` и создание HTML-отчета в Allure**
+**Launching autotests from the project-root directory `Diploma_2` and the HTML-report creation in Allure**
 
 > `pytest tests\ --alluredir=allure_results`
 > `allure serve allure_results`
