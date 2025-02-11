@@ -1,4 +1,4 @@
-##  Final diploma project. Task 2: API tests
+##  Diploma project. Task 2: API tests
 
 ### Autotests to check burgering order process of Stellar Burgers
 
